@@ -125,15 +125,17 @@ The GitHub community is vast. There are many types of people who use GitHub in t
 
 #### Login Page 
 
-1) The login page is basic and has all the essential components of a traditional login. First time users may use the Sign Up option to register their own UpToDate account by verifying an email address and setting up a private password. Users who already have an established account need only to enter their email address and password to Sign In. After users successfully Sign In to their accounts, users can customize their names by tapping into the profile icon located at the top right corner. Users can select pictures from their photo gallery as their profile picture.
+1) The login page is basic. First time users may use the Sign Up option to register their own UpToDate account by entering their student ID, or in our case, GNumber, and setting up a private password. Users who already have an established account need only to enter their student ID and password to Sign In. By using Selenium from Python, the student GNumber input is entered into our school’s website, automatically logging in and extracting the student’s personal timetable which is then put on the Schedule page of our app. After users successfully Sign In to their accounts, users can customize their personal information by accessing the profile icon located at the top right corner. Users can select pictures from their photo gallery as new profile pictures.
 
 #### Home Page 
 
-2) The Home Page includes a calendar, the Upcoming Events bar, as well as the Menu Bar. The calendar displays the current date and users can select different dates. The Upcoming Events bar chronologically organizes upcoming events, assignment deadlines, holidays, and exams in order of urgency. The Menu Bar, located on the top left corner, displays UpToDate’s 5 main functions as well as the Log Out option.
+2) The Home Page includes a calendar, the Upcoming Events bar, as well as the 
+Menu Bar. The Calendar includes the date, month, and year. The Upcoming Events bar chronologically organizes upcoming events, assignment deadlines, holidays, and exams. The Menu Bar, located on the top left corner, displays 7 main options each of which’s functions we’ll explain in-depth.
 
 #### Schedule 
 
-3) The Schedule contains the daily timetable for each student. Students or parents can check their next courses here. The Schedule has a Scrollbar with numbers ranging from 1 to 5, where users may select which school day’s timetable they want to view. The timetable is organized into two columns: the course names and corresponding time periods.
+3) The Schedule contains the weekly timetable for each student. Students or parents 
+can check their upcoming classes, teachers, and locations. The timetable is organized into two columns: the course names and corresponding time periods.
 
 #### Community (social media) 
 
@@ -141,11 +143,11 @@ The GitHub community is vast. There are many types of people who use GitHub in t
 
 #### Absence Request 
 
-5) Absence Request allows parents or students themselves to file leaves when students cannot attend school. First, users would select the specific date they would be absent on using the Day and Month Scrollbars. If the student would be absent for a span of days, multiple Absence Requests would have to be filed. In the text box, users need to enter the reason for their absence. Pressing Apply would confirm and terminate the Absence Request.
+5) Absence Request allows parents or students themselves to file leaves when students cannot attend school. First, users would select the specific date they would be absent with the Calendar. If the student would be absent for consecutive days, multiple Requests would have to be filed. In the text box, users need to enter the reason for their absence.
 
 #### AI Counsellor
 
-6) AI Counsellor is an AI chat assistant dedicated to providing research on colleges for high school students. Users have to enter the name of a university they’re interested in and come up with a question they have about that school. The Counsellor would then generate a response to the question. The refresh button will return users to the initial page. With Counsellor, UpToDate hopes to prepare high school students early on for college applications and emphasize punctuality.
+6) AI Counsellor is an AI chat assistant dedicated to providing research on colleges for high school students. Users have to enter the name of a university plus the term univeristy/college/school they’re interested in and come up with a question they have about that school. The Counsellor would then generate a response to the question. The refresh button will return users to the initial page. With Counsellor, which also needs to contain the phrasing of the school plus university/college/school.
 
 #### Contact US Page 
 7) The Contact Us page contains two functions. The first is a bug reporting system that allows users to report errors via text or screenshots. The reports would be forwarded to our team’s emails, where we will ensure the changes are fixed asap. The latter half of the page contains our team’s contact information on WeChat and Twitter.
